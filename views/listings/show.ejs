@@ -1,22 +1,23 @@
 <% layout("/layouts/boilerplate.ejs") -%>
 
 <div class="row">
-  <div class="col-8 offset-2 mt-3">
+  <div class="col-8 offset-3 mt-3">
     <h2>Listing Details</h2>
   </div>
   <div class="show-card card col-6 offset-3">
     <img
       src="<%= listing.image %>"
-      class="card-img-top show-img"
+      class="card-img-top show-img obj-top"
+      style="object-fit: cover; object-position: top; width: 100%; height: 320px;"
       alt="Listing_image"
     />
     <div class="card-body">
       <p class="card-text">
-        <b><%= listing.title %></b><br />
-        <%= listing.description %> <br />
-        &#8377; <%= listing.price.toLocaleString("en-IN") %> <br />
-        <%= listing.location %> <br />
-        <%= listing.country %> <br />
+        <b><%= listing.title %></b><br /><br />
+        <%= listing.description %> <br /><br />
+        &#8377; <%= listing.price.toLocaleString("en-IN") %> <br /><br />
+        <%= listing.location %> <br /><br />
+        
       </p>
     </div>
   </div>

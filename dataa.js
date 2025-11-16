@@ -1,53 +1,54 @@
 const sampleListings = [
     {
-        title: "Wedding lehanga",
+        title: "Cozy Beachfront Cottage",
         description:
-            "Red bridal lehenga with heavy gold embroidery, a structured blouse, and a sheer embroidered dupatta delivering a premium ceremonial look.",
-        image: "https://imgmediagumlet.lbb.in/media/2024/11/6736e4b1b25c7c176a7247db_1731650737253.jpg",
+            "Escape to this charming beachfront cottage for a relaxing getaway. Enjoy stunning ocean views and easy access to the beach.",
+        image: "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
         price: 1500,
-        location: "Bhopal",
+        location: "Malibu",
+        country: "United States",
     },
     {
-        title: "Kurta pajama set",
+        title: "Modern Loft in Downtown",
         description:
             "Stay in the heart of the city in this stylish loft apartment. Perfect for urban explorers!",
-        image: "https://rajanyas.com/cdn/shop/files/Untitleddesign-2023-09-26T115227.454.png?v=1695711580&width=1946",
+        image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
         price: 1200,
         location: "New York City",
         country: "United States",
     },
     {
-        title: "Formal sherwani",
+        title: "Mountain Retreat",
         description:
             "Unplug and unwind in this peaceful mountain cabin. Surrounded by nature, it's a perfect place to recharge.",
-        image: "https://www.parivarceremony.com/media/catalog/product/cache/14a1553305c404c221b3f13f50c007dd/p/1/p1251mw01-1.jpg",
+        image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
         price: 1000,
         location: "Aspen",
         country: "United States",
     },
     {
-        title: "Anarkali gown",
+        title: "Historic Villa in Tuscany",
         description:
             "Experience the charm of Tuscany in this beautifully restored villa. Explore the rolling hills and vineyards.",
-        image: "https://www.meerasplussizestore.com/cdn/shop/products/Wine-sequin-anarkali-SCL_6618.jpg?v=1750317715&width=2000",
+        image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
         price: 2500,
         location: "Florence",
         country: "Italy",
     },
     {
-        title: "Formal wedding sherwani",
+        title: "Secluded Treehouse Getaway",
         description:
             "Live among the treetops in this unique treehouse retreat. A true nature lover's paradise.",
-        image: "https://www.shaadibaraati.com/vendors-profile/79a09ec64d2c064c39c34b09376c907e.jpg",
+        image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
         price: 800,
         location: "Portland",
         country: "United States",
     },
     {
-        title: "Three-piece suit",
+        title: "Beachfront Paradise",
         description:
             "Step out of your door onto the sandy beach. This beachfront condo offers the ultimate relaxation.",
-        image: "https://img.lazcdn.com/g/p/8a9c076aa59badd373feb29baeb9cbac.jpg_webp_720x720q80.jpg",
+        image: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
         price: 2000,
         location: "Cancun",
         country: "Mexico",
